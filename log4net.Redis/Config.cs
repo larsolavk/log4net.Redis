@@ -9,7 +9,6 @@ namespace log4net.Redis
     internal class Config
     {
         public string Hosts { get; set; }
-        public string Password { get; set; }
         public string Key { get; set; }
         public int Period { get; set; }
         public int BatchSize { get; set; }

@@ -58,7 +58,6 @@ namespace log4net.Redis.Appender
                 Hosts = Hosts,
                 Key = Key,
                 MaxBatchPeriod = MaxBatchPeriod,
-                Password = Password,
                 Period = Period,
                 PurgeOnConnectionFailure = PurgeOnConnectionFailure
             };
